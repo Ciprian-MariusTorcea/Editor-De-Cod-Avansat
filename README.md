@@ -15,13 +15,20 @@ Proiectul este organizat în trei directoare principale:
 ### 1. Generarea fișierelor de test
 
 #### În C:
-1. **Compilarea și rularea generatorului de date:**
-    - Navigați la directorul `GeneratorDateC`.
-    - Compilare: Deschideți un terminal și rulați comanda:
+1. **Navigați la directorul `GeneratorDateC`**:
+    ```sh
+    cd GeneratorDateC
+    ```
+
+2. **Compilarea generatorului de date**:
+    - Deschideți un terminal în directorul `GeneratorDateC`.
+    - Rulați următoarea comandă pentru a compila fișierele `main.c` și `functions.c` într-un executabil numit `GeneratorDateC`:
       ```sh
       gcc -o GeneratorDateC main.c functions.c
       ```
-    - Rulare: Rulați programul pentru a genera fișierele de test:
+
+3. **Rularea generatorului de date**:
+    - După compilare, rulați executabilul pentru a genera fișierele de test:
       ```sh
       ./GeneratorDateC
       ```
@@ -30,22 +37,34 @@ Proiectul este organizat în trei directoare principale:
 ### 2. Rularea algoritmului de calcul al distanței Levenshtein
 
 #### În C:
-1. **Compilarea și rularea programului principal:**
-    - Navigați la directorul `EditorDeCod_VariantaC`.
-    - Compilare: Deschideți un terminal și rulați comanda:
+1. **Navigați la directorul `EditorDeCod_VariantaC`**:
+    ```sh
+    cd ../EditorDeCod_VariantaC
+    ```
+
+2. **Compilarea programului principal**:
+    - Deschideți un terminal în directorul `EditorDeCod_VariantaC`.
+    - Rulați următoarea comandă pentru a compila fișierele `main.c` și `functions.c` într-un executabil numit `EditorDeCod`:
       ```sh
       gcc -o EditorDeCod main.c functions.c
       ```
-    - Rulare: Rulați programul pentru a calcula distanța Levenshtein pentru fiecare pereche de fișiere generate:
+
+3. **Rularea programului principal**:
+    - După compilare, rulați executabilul pentru a calcula distanța Levenshtein pentru fiecare pereche de fișiere generate:
       ```sh
       ./EditorDeCod
       ```
     - Rezultatele vor fi afișate în terminal, inclusiv numărul minim de operații necesare pentru fiecare pereche de fișiere și timpul de execuție al algoritmului.
 
 #### În Python:
-1. **Executarea programului principal:**
-    - Navigați la directorul `EditorDeCod_VariantaPython`.
-    - Rulare: Deschideți un terminal și rulați comanda:
+1. **Navigați la directorul `EditorDeCod_VariantaPython`**:
+    ```sh
+    cd ../EditorDeCod_VariantaPython
+    ```
+
+2. **Executarea programului principal**:
+    - Deschideți un terminal în directorul `EditorDeCod_VariantaPython`.
+    - Rulați următoarea comandă pentru a executa programul:
       ```sh
       python main.py
       ```
