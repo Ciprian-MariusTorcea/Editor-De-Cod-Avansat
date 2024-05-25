@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1716653833 source:d:\data\work\editordecod_variantac\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"functions.h"
+
+1716653596 source:d:\data\work\editordecod_variantac\functions.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1716653626 d:\data\work\editordecod_variantac\functions.h
+
