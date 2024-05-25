@@ -7,7 +7,7 @@ Homework Assignment
 Proiectul este organizat în trei directoare principale:
 
 - **EditorDeCod_VariantaC**: Conține implementarea algoritmului de calcul al distanței Levenshtein în C.
-- **EditorDeCod_VariantaPython**: Conține implementarea algoritmului de calcul al distanței Levenshtein în Python.
+- **EditorDeCod_VariantaPython**: Conține implementarea algoritmului de calcul al distanței Levenshtein în Python + Conține generatorul de date pentru testarea algoritmului, implementat în Python .
 - **GeneratorDateC**: Conține generatorul de date pentru testarea algoritmului, implementat în C.
 
 ## Pașii pentru a rula codurile
